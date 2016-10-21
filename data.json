@@ -1,0 +1,110 @@
+{
+    "project_logo": "https://pbs.twimg.com/profile_images/1689132424/IIIMPACT_symbol_highres_blackback.png",
+    "project_favicon": "favicon.png",
+    "project_name": "Quorum Solutions",
+    "project_url": "http://iiimpact.io",
+    "copyright_start_year": 2016,
+    "client_name": "Quorum Solutions",
+    "client_url": null,
+    "creators": [
+        {
+            "name": "IIIMPACT",
+            "url": "http://iiimpact.io"
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#00585C",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": true,
+        "show_version": true,
+        "max_width": null,
+        "titles": {
+            "library_title": "Pattern Library",
+            "pages_title": "Overview",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [
+            "./styles/styles.css"
+        ],
+        "js": []
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "branding",
+            "title": "Colors",
+            "components": [
+                {
+                    "group": "branding",
+                    "name": "primary",
+                    "title": "Main color",
+                    "type": "colors",
+                    "colors": [     "#7da9f9,#507ed3",
+    "#f469a7,#c14c80",
+    "#60ceb8,#3fa18d",
+    "#f5d13f,#f5a63f",
+    "#e199e5,#c776cb"]
+                }
+            ]
+        },
+        {
+            "name": "typo",
+            "title": "Fonts",
+            "components": [
+                {
+                    "group": "typo",
+                    "name": "main",
+                    "title": "Typography Main",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "typo",
+                    "name": "second",
+                    "title": "Typography secondary",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                }
+            ]
+        },
+        {
+            "name": "button",
+            "title": "Buttons",
+            "components": [
+                {
+                    "group": "button",
+                    "name": "primary",
+                    "title": "Buttom Primary",
+                    "width": "half"
+                }
+            ]
+        }
+    ],
+    "version": "1.8.1"
+}

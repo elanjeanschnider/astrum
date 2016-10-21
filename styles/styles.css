@@ -1,0 +1,11 @@
+h1{
+	font-family: sans-serif;
+}
+
+.btn-primary{
+
+	padding:20px;
+	color: white;
+	background-color: black;
+	font-family: sans-serif;
+}
